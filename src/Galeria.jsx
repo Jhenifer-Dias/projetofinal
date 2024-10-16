@@ -5,9 +5,9 @@ import { Box, IconButton } from '@mui/material';
 import { ArrowBackIos, ArrowForwardIos } from '@mui/icons-material';
 
 const images = [
-'https://th.bing.com/th?id=ORMS.baa0fc7badc415abd37396ce4ac333a2&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1&p=0',
-'https://th.bing.com/th?id=ORMS.b0e90160a53335243f7dc576fc9e7580&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1&p=0',
-'https://th.bing.com/th?id=ORMS.5e6a7a17baa760ef27278148af0c8dee&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1&p=0'
+'img2.png',
+'img3.png',
+'img4.png'
 ];
 
 function Galeria() {

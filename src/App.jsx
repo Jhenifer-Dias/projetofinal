@@ -40,7 +40,7 @@ function App() {
             display="flex"
             justifyContent="center"
             alignItems="center">
-            <h1> Kartódromo Araraquara</h1>
+            <h1> Paint Ball</h1>
           </Box>
         </Box>
         <Box
@@ -79,7 +79,7 @@ function App() {
             bgcolor="red"
             borderRadius="4px "
             border="2px solid black">
-            <img src="https://lh3.googleusercontent.com/p/AF1QipOs8ornwEz9cGyX8uWE1skCJVJ6mioouB_ZyoeQ=s680-w680-h510" alt=""
+            <img src="./imagemp.png" alt=""
               height="170px"
               width="190px"
             />
@@ -102,7 +102,8 @@ function App() {
             border="2px solid black"
             borderRadius="5px"
             display="flex"
-            justifyContent="space-evenly"
+            justifyContent="center"
+            alignItems="center"
             margin="20px"
             fontFamily="arial"
             fontSize="17px"
@@ -114,21 +115,26 @@ function App() {
             <Box
               height="100%"
               width="100%">
-              <p>  •quarta a sábado das 16h até as 22h <br />
-                •domingo das 10h às 17h <br />
-                •R$130,00 por pessoa para uma corrida de 20 minutos <br />
+              <p>  
+              •40,00$ por jogador<br></br>
+              <br />
+              •Incluso equipamentos com 100 bolinhas<br></br>
+              <br />
+              •jogos de 1h<br></br>
+<br />
+              •Idade mínima 10 anos <br />
+              <br />
 
-                •5 minutos de tomada de tempo (posição de largada) e 15 minutos de corrida. <br />
-             
-                •mínimo 5 pilotos para corridas noturnas e de domingo para que a corrida aconteça. <br />
-                •agendaremos você com uma turma ou pode trazer mais 4 amigos com você. <br />
-
-                •Temos macacão, luvas, capacetes, balaclava e protetor cervical.  <br />
-                •necessário vir de tênis e chegar com uma hora de antecedência. <br />
-                •agendamento deve ser feito com antecedência via WhatsApp<a href="https://bit.ly/3BCRwdz">WhatsApp</a> <br />
-
-                •Importante: O não comparecimento, desistência ou atraso *não* dará direito à devolução da inscrição.
-
+              •Grupo mínimo de 8 pessoas <br />
+              <br />
+              •Mínimo sao 8 jogadores (se houver menos que 8 será dividido entre o numero de participantes) <br />
+              <br />
+              •Necessário fazer a reserva antecipada do horário <br />
+              <br />
+              •Recargas adicionais com 100 bolinhas: r$25,00 <br />
+<br />
+              •Para reservar, efetue o pagamento antecipado de R$100,00 que será descontado no jogo de vcs <br />
+<br />
 
               </p></Box>
           </Box>
