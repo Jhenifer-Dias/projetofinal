@@ -1,0 +1,156 @@
+import { Box } from '@mui/material'
+import Input from "./Components/Input"
+import Checkbox from "./Components/Checkbox"
+import Tooltip from "./Components/Tooltip"
+import Button from "./Components/Button"
+import "./link.css"
+
+function App() {
+  return (
+    <>
+      <Box
+        bgcolor="white"
+        width="100%"
+        height="100vh"
+        display="flex"
+        flexDirection="column"
+      >
+
+        <Box
+          bgcolor="#7590BB"
+          width="100%"
+          height="50px"
+          display="center"
+          justifyContent="space-between"
+        >
+          <Box
+            margin="10px"
+          >
+            <Checkbox />
+          </Box>
+
+          <Box
+            margin="10px"
+          >
+            <Input />
+          </Box>
+
+          <Box
+            bgcolor=""
+            width="50px"
+            height="50px"
+            marginBottom="40px"
+            borderRadius="20px"
+          >
+            <img 
+            width="100%"
+            height="100%"
+            src="./logo.png" alt="" />
+
+          </Box>
+
+        </Box>
+
+        <Box
+          bgcolor="#132840"
+          width="100%"
+          height="90%"
+          display="flex"
+        >
+          <Box
+            bgcolor="purple"
+            width="35%"
+            height="90%"
+            margin="10px"
+          >
+            <img 
+                width="100%"
+                height="100%"
+                src="./im27.png" alt="" />
+          </Box>
+
+          <Box
+            bgcolor="cyan"
+            width="68%"
+            height="90%"
+            margin="10px"
+            display="flex"
+            flexDirection="column"
+          >
+            <Box
+              bgcolor="#132840"
+              width="100%"
+              height="50%"
+              display="flex"
+              justifyContent="space-between"
+
+            >
+              <Box
+                bgcolor="purple"
+                width="49%"
+                height="100%"
+                marginRight="2px"
+              >
+                <img 
+                width="100%"
+                height="100%"
+                src="./im28.png" alt="" />
+              </Box>
+
+              <Box
+                bgcolor="brown"
+                width="49%"
+                height="100%"
+              >
+                <img 
+                width="100%"
+                height="100%"
+                src="./im29.png" alt="" />
+              </Box>
+            </Box>
+
+            <Box
+              bgcolor="#132840"
+              width="100%"
+              height="50%"
+              display="flex"
+              justifyContent="space-between"
+              marginRight="2px"
+            >
+
+              <Box
+                bgcolor="black"
+                width="49%"
+                height="99%"
+                marginTop="2px"
+              >
+                <img 
+                width="100%"
+                height="100%"
+                src="./im30.png" alt="" />
+              </Box>
+              
+              <Box
+                bgcolor=""
+                width="49%"
+                height="40%"
+                marginTop="70px"
+                borderRadius="40px"
+                display="flex"
+                justifyContent="center"
+                alignItems="center"
+              >
+                 <a className="link" href="https://www.tripadvisor.com.br/Attraction_Review-g800380-d4127053-Reviews-Araraquara_Municipal_Theater-Araraquara_State_of_Sao_Paulo.html">
+                 <Button/>
+                 </a>
+              </Box>
+
+            </Box>
+          </Box>
+
+        </Box> 
+      </Box>
+    </>
+  )
+}
+export default App
